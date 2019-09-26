@@ -1,0 +1,14 @@
+/* Dalam tag IMAGE atau img ada beberapa perintah yang bisa kita gunakan untuk modifikasi gambar */
+
+img {
+   border: 0px solid #666; /* ini untuk mengatur tepi gambar atau bentuk gambar mau persegi atau lingkaran*/
+   box-shadow:0px 0px 0px #666; /* bayangan pada gambar*/
+
+/* Filter */
+   -webkit-filter:blur(1px)grayscale(0.4) sepia(0.5) brightness(0.6) contrast(0.6) hue-rotate(313deg) invert(0.4) saturate(2.8) drop-shadow(0px 0px 12px #808080);
+
+/* Transform */
+   transform:rotate(66deg);
+   -ms-transform:rotate(66deg); /* IE 9 */
+   -webkit-transform:rotate(66deg); /* Opera, Chrome, and Safari */
+}
