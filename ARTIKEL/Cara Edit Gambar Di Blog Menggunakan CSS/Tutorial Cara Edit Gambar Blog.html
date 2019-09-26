@@ -1,0 +1,66 @@
+# TUTORIAL
+
+<div>Contoh pengggunaan "Transform"
+    <br/>
+<img class="tranformer" src="http://2.bp.blogspot.com/-XlizGMsrK6Y/U05vOSpWFXI/AAAAAAAABWk/A9aIaMlejnY/s1600/logo+Komo.png" />
+</div>
+<div>
+<br/>
+Contoh penggunaan "Border"
+<img class="border" src="http://2.bp.blogspot.com/-XlizGMsrK6Y/U05vOSpWFXI/AAAAAAAABWk/A9aIaMlejnY/s1600/logo+Komo.png" />
+    <br/>
+</div>
+
+<div>
+<br/>
+Contoh penggunaan "box-Shadow" Bayangan
+<img class="bayangan" src="http://2.bp.blogspot.com/-XlizGMsrK6Y/U05vOSpWFXI/AAAAAAAABWk/A9aIaMlejnY/s1600/logo+Komo.png" />
+    <br/>
+</div>
+
+<br/>
+<div>
+<br/>
+Contoh Penggabungan semua kode :) 
+<img class="complate" src="http://2.bp.blogspot.com/-XlizGMsrK6Y/U05vOSpWFXI/AAAAAAAABWk/A9aIaMlejnY/s1600/logo+Komo.png" />
+    <br/>
+</div>
+
+# CSS
+<style>
+.tranformer{
+    margin:75px;
+    transform:rotate(66deg);
+-ms-transform:rotate(66deg); /* IE 9 */
+-webkit-transform:rotate(66deg); /* Opera, Chrome, and Safari */
+}
+
+.border{
+border:2px solid Red;
+    border-radius: 15px 25px 50px 100px;/*kiri^ kanan^ kananv kiriv*/
+    padding:25px;/*ruang antara border dengan content(gambar)*/
+    /*margin is ruang di luar border*/
+}
+
+.bayangan {
+box-shadow: 5px 8px 10px #000;/*5px B ke kanan,8px B ke bawah, Lebar Bayangan*/
+}
+
+
+.complate:hover {/* Hover berfungsi ketika mouse berada di content*/
+box-shadow: 5px 8px 10px #000;/*5px B ke kanan,8px B ke bawah, Lebar Bayangan*/
+    padding: 15px;
+    border-radius:5px;
+    border:3px solid red;
+    /*transform*/
+   
+transform:rotate(66deg);
+-ms-transform:rotate(66deg); /* IE 9 */
+-webkit-transform:rotate(66deg); /* Opera, Chrome, and Safari */
+   /*filter*/
+    margin:20px;
+    /*filter*/
+-webkit-filter:blur(0.3px)grayscale(0.4) sepia(0.5) brightness(0.6) contrast(0.6) hue-rotate(313deg) invert(0.4) saturate(0.8) ;
+    transition:5s;
+}
+</style>
