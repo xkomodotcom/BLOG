@@ -1,2 +1,2 @@
 # SELAMAT DATANG
-XKOMO.COM adalah personal blog yang membahas segala informasi tentang dunia blog dan juga teknologi.
+<a href="https://xkomo.com/" title="xkomo.com">XKOMO.COM</a> adalah personal blog yang membahas segala informasi tentang dunia blog dan juga teknologi.
